@@ -1,0 +1,43 @@
+body{
+    background:#ccc;
+}
+h2{
+    color:black;
+    font-size:15px;
+    text-align:center;}
+.passe {
+    text-align: right;
+    font-size: 18px;
+    text-decoration:none;
+}
+.toop {
+    text-align: center;
+    font-size: 15px;
+    background: red;
+    color: white;
+}
+p {
+    width: 250px;
+}
+footer {
+    text-align: center;
+    color: white;
+    background-color: red;
+    font-size: 15px;
+}
+.Botao{
+    text-decoration: none;
+    background: rgba(255, 0, 0, 0.478);
+    padding: 2px;
+    border-radius: 2px;}
+.Link{
+    text-decoration: none;
+}
+.Link:hover{
+    background:blue;
+    color: white;
+}
+.Botao:hover{
+background: blue;
+color: white;
+}
