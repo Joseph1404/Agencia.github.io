@@ -1,43 +1,29 @@
-body{
-    background:#ccc;
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
-h2{
-    color:black;
-    font-size:15px;
-    text-align:center;}
-.passe {
-    text-align: right;
-    font-size: 18px;
-    text-decoration:none;
+
+ul{
+    list-style: none;
 }
-.toop {
-    text-align: center;
-    font-size: 15px;
-    background: red;
-    color: white;
-}
-p {
-    width: 250px;
-}
-footer {
-    text-align: center;
-    color: white;
-    background-color: red;
-    font-size: 15px;
-}
-.Botao{
+
+a{
     text-decoration: none;
-    background: rgba(255, 0, 0, 0.478);
-    padding: 2px;
-    border-radius: 2px;}
-.Link{
-    text-decoration: none;
+    color: inherit;
 }
-.Link:hover{
-    background:blue;
-    color: white;
+
+/* estilizando o jornal */
+body {
+    background-color: #fff;
+    color: #8d8d8d;
 }
-.Botao:hover{
-background: blue;
-color: white;
+
+.topo{
+    height: 80px;
+    background-color: rgba(255, 0, 0, 0.72);
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    padding: 0 80px;
 }
