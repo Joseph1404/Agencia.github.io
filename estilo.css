@@ -1,14 +1,14 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-ul{
+ul {
     list-style: none;
 }
 
-a{
+a {
     text-decoration: none;
     color: inherit;
 }
@@ -19,11 +19,15 @@ body {
     color: #8d8d8d;
 }
 
-.topo{
+.topo {
     height: 80px;
     background-color: rgba(255, 0, 0, 0.72);
     display: flex;
-    justify-content:space-between;
+    justify-content: space-between;
     align-items: center;
     padding: 0 80px;
 }
+
+.meio {
+    background-color: black;
+    display: flex;}
